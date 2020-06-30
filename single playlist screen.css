@@ -1,0 +1,452 @@
+*{
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+body{ 
+   background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+/*header top section*/
+
+.header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;   
+}
+#logo-and-name{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    width: 150px;
+    color:white;
+}
+#player-logo-container{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width:50px;
+    color:white;
+}
+#player-logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    color:white;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;   
+}
+#player-name-container{
+     height: 50px;
+     width:50px;
+     padding: 0;
+     margin: 0;
+    color:white;
+}
+#player-name{
+    font-size: 32px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 13px;
+    color:black;
+}
+#favourites{
+    margin-top: 11px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    color:black;  
+}
+#form-container{
+    color:white;   
+}
+#search-form{
+   width: 260px;
+   margin-top: -5px;
+}
+#search-box{
+    height: 40px;
+    width: 260px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    border-style:inherit;
+    background-image: linear-gradient( 113.3deg,  rgba(134,209,228,1) -1.8%, rgba(60,80,115,1) 86.4% );  
+}
+#search-icon{
+    position: absolute;
+margin-top: -1.8rem;
+margin-left: 0.4vw;
+    color:violet;    
+}
+#mic-icon{  
+  
+ margin-left: 90%;
+    margin-top: -1.8rem;
+    color:violet;    
+}
+#notification-container{
+    color:white;
+}
+
+#notification-icon{
+    position: relative;
+    margin-top: 22px;
+    font-size: 30px;
+    color:darkblue;  
+}
+#notification-icon::after{
+    content: "";
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    left: 65%;
+}
+
+#user-login-container{
+    color:white;
+}
+#user-login{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    box-shadow: 10px;
+    margin-top: 10px;  
+}    
+
+/*singer data section*/
+
+#go-back-link{
+    position: absolute;
+   margin-top: -35px;
+}
+#go-back-link i{
+    font-size: 40px;
+    color: black;  
+}
+#singer-data-container{
+    display: flex;
+    width: 95%;
+    margin: 2%;
+}
+#singer-data{
+    display: flex;
+    width: 65%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#a1c4fd , #c2e9fb);
+}
+#singer-image-container{
+    width: 40%;
+}
+#singer-image-container img{
+    width: 100%;
+    height: 100%;
+}
+#singer-details-container{
+    margin-left: 1%;
+    width: 58%;
+}
+#singer-name{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#zayn{
+    font-weight: 900;
+    color:darkblue;
+    font-size: 28px;
+   font-family: 'Kaushan Script', cursive;
+}
+#followers{
+    color: brown;
+    margin-top: 35%;
+    font-size: 20px;
+    font-weight: 800;
+}
+#singer-info{
+    color: darkslateblue;
+    font-size: 20px;
+    font-family: cursive;
+}
+#play-container{
+    display: flex; 
+    width: 80%;
+    justify-content: space-around;
+    text-align: center;
+}
+#playall{
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    font-size: 22px;
+    overflow: hidden;
+    background-image: linear-gradient(blue,green);
+}
+#follow{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+#total-songs{
+    padding-left: 14%;
+    margin-top: -16px;
+    color: blueviolet;
+    font-size: 18px;
+}
+
+/*  similar artists section*/
+
+#similar-artist-container{
+     margin-left: 1%;
+}
+#similar-artist{
+    display: flex;
+    width: 90%;
+    margin-left: 1%;
+    justify-content: space-between;
+}
+#similar-artist-container{
+    display: flex;
+    width: 37%;
+    flex-direction: column;
+}
+#artist-name p{
+    font-family: 'Marck Script', cursive;
+    color: black;
+    font-size: 30px;
+}
+#artist-data-container{
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    width: 90%;
+    margin-bottom: -9%;
+    color:white; 
+}
+#artist-image-container{
+    height: 60%;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 1%;
+    color:white;
+}
+#artist-image-container img{
+    height: 100%;
+    width: 100%;
+    color:white;
+}
+#artist-details{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 65%;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    color:white;
+}
+#song-name{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: -12px;
+    color:white;
+}
+
+/*  songs list section*/
+
+#songs-list-container{
+     height: 550px;
+    display: flex;
+    width: 95%;
+    
+    margin-left: 2%;
+}
+#songs-list{
+    display: flex;
+    width: 79%;
+    flex-direction: column;
+    
+}
+#song-data-container {
+    display: flex;
+    width: 96%;
+    background-color:darkcyan;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    
+}
+#song-data{
+    display: flex;
+    width: 30%;
+}
+#song-serial-number , #song-image-container , #song-name-container{
+    width: 32%;
+}
+#song-serial-number p{
+    text-align: center;
+    margin-top: 30%;
+    padding: 0;
+}
+#song-image-container img{
+    width: 80%;
+    padding: 10%;
+    margin-top: 12%;
+}
+#song-name-container{
+    margin-left: 3%;
+}
+#heart-logo-container{
+    display: flex;
+    width: 20%;
+}
+#heart , #plus{
+    width: 48%;
+    justify-content: center;
+    align-self: center;
+}
+
+/*  recently added section*/
+
+#recently-added-container{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#recently-added{
+    display: flex;
+    width: 96%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+#recently-added p{
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+#recently-songs-container{
+    display: flex;
+    width: 96%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+#recent-songs{
+    display: flex;
+    width: 70%;
+}
+#recent-song-serial-number-container{
+    align-content: center;
+    width: 20%;
+}
+recent-song-serial-number{
+    margin-left: 5%;
+}
+#recently-song-image-container{
+    width: 40%;
+}
+#recently-song-image-container img{
+    padding: 4%;
+    padding-left: 18%;
+    padding-top: 18%;
+    height: 66%;
+    width: 66%; 
+}
+#recent-song-name{
+    width: 36%;
+}
+#recently-song-heart{
+    width: 10%;
+    align-content: center;
+}
+#recently-song-heart p{
+    text-align: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/*   media queries*/
+
+@media screen and (max-width:900px){
+    #artist-details{
+        margin-left: 16%;
+    }
+    #singer-data-container{
+        height: 500px;
+    }
+    #singer-info{
+        font-size: 15px;
+    }
+    #zayn , #followers{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:800px){
+    #player-name , #favourites{
+        font-size:20px;
+    }
+    #player-logo-container, #user-login{
+        height: 30px;
+        width: 30px;
+    }
+    
+    #notification-icon ,#user-login , #queue-heading1 , #queue-heading2{
+        font-size: 18px;
+    }
+    #form-container{
+        margin-left:5px;
+    }
+    #search-form , #search-box{
+        height: 30px;
+        width: 160px;
+    }
+    #search-icon{
+        margin-left: 1%;
+        margin-top: -3.8%;
+    }
+    #mic-icon{
+        margin-left: 88%;
+        margin-top: -14%;
+    }
+    #user-login{
+        margin-top: 14px;
+    }
+    #singer-info{
+        display: none;
+    }
+    #singer-data-container , #similar-artist-container{
+        height: 400px;
+    }
+    #songs-list-container{
+        padding-top: 35px;
+    }
+    #recently-added-container , #similar-artist-container{
+        margin-top: -5%;
+    }
+    #song-image-container img{
+        width: 99%;
+        height: 60%;
+        margin: 0;
+        padding:0;
+        margin-top: 30%;
+    }
+    #artist-details{
+        margin-left: 16%;
+    }
+    #recently-added p{
+        font-size: 20px;
+    }
+    #artist-name p{
+        font-size: 20px;
+    }
+}

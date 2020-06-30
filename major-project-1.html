@@ -1,0 +1,775 @@
+<html>
+<head>
+    
+    <meta name="viewport" content="Width = device-width , initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" type = "text/css" href="major-project-1.css">
+    
+    <title>
+           Major-project-1
+    </title>
+    
+    </head>
+    
+<body>
+  
+<!--    top header section-->
+    
+ <header>
+   <div class="header">   
+     <div id="logo-and-name">
+         <div id="player-logo-container"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQw-cnv2DhA0XwX_z2cw6WJp-o97-PvPfDoKq5k8SJU1-A9Nb-a&usqp=CAU" id="player-logo"></div> 
+             <div id="player-name-container"><p id="player-name">Music</p> 
+         </div>     
+                  </div>
+       
+     <div id="favourites-container">
+         <h1 id="favourites">Favourites</h1>
+           </div>
+                <div id="form-container">
+                   <form id="search-form">
+                     <input type="text" id="search-box"  placeholder="Search">
+                         <i class="fas fa-search" id="search-icon"></i>
+                        <i class="fas fa-microphone" id="mic-icon"></i>
+                      </form>
+                   </div>
+              <div id="notification-container">
+           <i class="fas fa-bell" id="notification-icon" ></i></div>
+        <div id="user-login-container">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRe0ZzNF05mUWyXn1iIUclNt9vBCseFAZWrZeSePt4g2hBljQms&usqp=CAU" id="user-login"></div>
+ </div>    
+</header>
+    
+<!--    main section-->
+    
+    <section class="main-container">
+       <section id="main-section">
+           
+<!--           top-hits-section-->
+           
+         <section id="top-hits">  
+           <div id="top-hits-image1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRunSOrnqmp2jEd-pZQp_iMKylgk1i5EnnMJbBqgi1L9JFbpfvV&usqp=CAU" id="top-hits-image"></div>
+         <div id="top-hits-image2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYV5ZEmQc-AXBqe8aKBEK08dW5hFSVPf4GJ-5FORgcq_bNKGJx&usqp=CAU" id="top-hits-image"></div>
+      <div id="top-hits-image3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbcksdneI8piCielArxJ3IaufSXXq-X9UQH48WR12d2SlbKK9s&usqp=CAU" id="top-hits-image"></div>
+    </section>
+    
+    <p id="main-headings">Latest Releases</p>
+    
+<!--     latest releases section  -->
+           
+    <section id="latest-releases">
+        
+        <div id="song-container">
+            <div id="song-image-container">
+             <input type="checkbox" name="play" id="play-icon1">
+            <label for="play-icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsdE4dqV6xYn8586y9bw6Jgu73glu7EopMO8mZa_Hpjqd8urmp&usqp=CAU"><div class="play-button"><i class="fas fa-play-circle"></i></div></label>
+                
+<!--                music popup that appears on clicking on the song-->
+                
+                    <section id="music-popup">
+                        <div id="popup-song-image-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsdE4dqV6xYn8586y9bw6Jgu73glu7EopMO8mZa_Hpjqd8urmp&usqp=CAU">
+                       </div>
+                         <div id="popup-song-name-container">
+                                 <p id="poup-song-name">heading home <br>Alan Walker</p>
+                           </div>
+                            <div id="player-functions">
+                                 <i class="far fa-heart" id="like"></i>
+                                   <i class="fas fa-ban" id="mute"></i>
+                             </div>
+                                   <div id="media-controls-container">
+                                <div id="media-buttons-container">
+                                     <div><i class="fas fa-random" id="shuffle"></i></div>
+                              <div><i class="fas fa-backward" id="shuffle"></i></div>
+                         <div><i class="far fa-pause-circle" id="pause"></i></div>
+                 <div><i class="fas fa-forward" id="shuffle"></i></div>
+                      <div><i class="fas fa-sync" id="shuffle"></i></div>
+                       </div>
+                  <div id="song-duration-container">
+                 <div id="current-position"><p>1:44</p></div>
+                <div id="play-bar"></div>
+              <div id="song-length"><p>5:54</p></div>
+           </div>
+        </div> 
+    <div id="volume-controls">
+<div id="repeat-container"><p id="repeat"><i class="fas fa-sliders-h" ></i></p></div>
+        <div id="pc-container"><p id="pc-icon"><i class="fas fa-desktop" ></i></p></div>
+        <div id="sound-container"><p id="sound"><i class="fas fa-volume-down" ></i></p></div>
+        <div id="current-volume"></div>
+        <div id="stretch-container"><p id="stretch"><i class="fas fa-expand-arrows-alt" ></i></p></div>
+        
+    </div>
+</section>
+                
+    </div>
+         
+        <div id="details">
+            
+          <p id="song-name">heading home<br>Alan Walker</p>
+            <p id="play-time">3:34</p>
+            <div id="song-options-container">
+            <input type="checkbox" id="song-box1" name="song-dropdown">
+         <label for="song-box1"><i class="fas fa-chevron-circle-down" id="arrow-icon1"></i></label>
+            
+            <div id="song-options"><ul> <li>
+                <li><i class="fas fa-play"></i>&nbsp;&nbsp;Play now</li>
+                <li><i class="fas fa-plus"></i>&nbsp;&nbsp;Add to queue</li>
+                <li><i class="fas fa-music"></i>&nbsp;&nbsp;Favourites</li>
+                <li><i class="fas fa-info-circle"></i>&nbsp;&nbsp;Get Info</li>
+                </ul></div>
+            </div>
+        </div>    
+        </div>
+        
+            <div id="song-container">
+            <div id="song-image-container">
+            <input type="checkbox" name="play" id="play-icon2">
+            <label for="play-icon2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuf4dp1GUY1n3GeyeTNvNLpTR2I9SMNRlIfZJj0OfXmgEVSUrt&usqp=CAU"><div class="play-button"><i class="fas fa-play-circle"></i></div></label>
+                
+<!--                music popup that appears on clicking on the song-->
+                
+                    <section id="music-popup">
+                        <div id="popup-song-image-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuf4dp1GUY1n3GeyeTNvNLpTR2I9SMNRlIfZJj0OfXmgEVSUrt&usqp=CAU">
+                       </div>
+                         <div id="popup-song-name-container">
+                                 <p id="poup-song-name">love again <br>Dua Lipa</p>
+                           </div>
+                            <div id="player-functions">
+                                 <i class="far fa-heart" id="like"></i>
+                                   <i class="fas fa-ban" id="mute"></i>
+                             </div>
+                                   <div id="media-controls-container">
+                                <div id="media-buttons-container">
+                                     <div><i class="fas fa-random" id="shuffle"></i></div>
+                              <div><i class="fas fa-backward" id="shuffle"></i></div>
+                         <div><i class="far fa-pause-circle" id="pause"></i></div>
+                 <div><i class="fas fa-forward" id="shuffle"></i></div>
+                      <div><i class="fas fa-sync" id="shuffle"></i></div>
+                       </div>
+                  <div id="song-duration-container">
+                 <div id="current-position"><p>1:44</p></div>
+                <div id="play-bar"></div>
+              <div id="song-length"><p>5:54</p></div>
+           </div>
+        </div> 
+    <div id="volume-controls">
+<div id="repeat-container"><p id="repeat"><i class="fas fa-sliders-h" ></i></p></div>
+        <div id="pc-container"><p id="pc-icon"><i class="fas fa-desktop" ></i></p></div>
+        <div id="sound-container"><p id="sound"><i class="fas fa-volume-down" ></i></p></div>
+        <div id="current-volume"></div>
+        <div id="stretch-container"><p id="stretch"><i class="fas fa-expand-arrows-alt" ></i></p></div>
+        
+    </div>
+</section>
+                
+    </div>
+         
+        <div id="details">
+            
+          <p id="song-name">love again<br>Dua Lipa</p>
+            <p id="play-time">3:34</p>
+             <div id="song-options-container">
+            <input type="checkbox" id="song-box2" name="song-dropdown">
+         <label for="song-box2"><i class="fas fa-chevron-circle-down" id="arrow-icon1"></i></label>
+            
+            <div id="song-options"><ul> <li>
+                <li><i class="fas fa-play"></i>&nbsp;&nbsp;Play now</li>
+                <li><i class="fas fa-plus"></i>&nbsp;&nbsp;Add to queue</li>
+                <li><i class="fas fa-music"></i>&nbsp;&nbsp;Favourites</li>
+                <li><i class="fas fa-info-circle"></i>&nbsp;&nbsp;Get Info</li>
+                </ul></div>
+            </div>
+        </div>
+            
+        </div>
+        </section>
+    
+    <section id="latest-releases">
+        
+           <div id="song-container">
+           
+            <div id="song-image-container">
+             <input type="checkbox" name="play" id="play-icon3">
+            <label for="play-icon3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQKKCkjmToJ3aCgRtWIYzwPSr_-4tGIF7Be7Ji-4uTo1PXfVnJ&usqp=CAU"><div class="play-button"><i class="fas fa-play-circle"></i></div></label>
+                
+<!--                music popup that appears on clicking on the song-->
+                
+                    <section id="music-popup">
+                        <div id="popup-song-image-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQKKCkjmToJ3aCgRtWIYzwPSr_-4tGIF7Be7Ji-4uTo1PXfVnJ&usqp=CAU">
+                       </div>
+                         <div id="popup-song-name-container">
+                                 <p id="poup-song-name">genda phool <br> Badshah</p>
+                           </div>
+                            <div id="player-functions">
+                                 <i class="far fa-heart" id="like"></i>
+                                   <i class="fas fa-ban" id="mute"></i>
+                             </div>
+                                   <div id="media-controls-container">
+                                <div id="media-buttons-container">
+                                     <div><i class="fas fa-random" id="shuffle"></i></div>
+                              <div><i class="fas fa-backward" id="shuffle"></i></div>
+                         <div><i class="far fa-pause-circle" id="pause"></i></div>
+                 <div><i class="fas fa-forward" id="shuffle"></i></div>
+                      <div><i class="fas fa-sync" id="shuffle"></i></div>
+                       </div>
+                  <div id="song-duration-container">
+                 <div id="current-position"><p>1:44</p></div>
+                <div id="play-bar"></div>
+              <div id="song-length"><p>5:54</p></div>
+           </div>
+        </div> 
+    <div id="volume-controls">
+<div id="repeat-container"><p id="repeat"><i class="fas fa-sliders-h" ></i></p></div>
+        <div id="pc-container"><p id="pc-icon"><i class="fas fa-desktop" ></i></p></div>
+        <div id="sound-container"><p id="sound"><i class="fas fa-volume-down" ></i></p></div>
+        <div id="current-volume"></div>
+        <div id="stretch-container"><p id="stretch"><i class="fas fa-expand-arrows-alt" ></i></p></div>
+        
+    </div>
+</section>
+                
+    </div>
+         
+        <div id="details">
+            
+          <p id="song-name">genda phool<br>Badshah</p>
+            <p id="play-time">3:34</p>
+             <div id="song-options-container">
+            <input type="checkbox" id="song-box3" name="song-dropdown">
+         <label for="song-box3"><i class="fas fa-chevron-circle-down" id="arrow-icon1"></i></label>
+            
+            <div id="song-options"><ul> <li>
+                <li><i class="fas fa-play"></i>&nbsp;&nbsp;Play now</li>
+                <li><i class="fas fa-plus"></i>&nbsp;&nbsp;Add to queue</li>
+                <li><i class="fas fa-music"></i>&nbsp;&nbsp;Favourites</li>
+                <li><i class="fas fa-info-circle"></i>&nbsp;&nbsp;Get Info</li>
+                </ul></div>
+            </div>
+        </div>
+            
+        </div>
+
+            
+        </div>
+            
+        </div>
+        
+         <div id="song-container">
+           
+            <div id="song-image-container">
+             <input type="checkbox" name="play" id="play-icon4">
+            <label for="play-icon4"><img src="https://www.gabruu.com/uploads/post/post-67231581080798950919_thumb.jpg"><div class="play-button"><i class="fas fa-play-circle"></i></div></label>
+                
+<!--     music popup that appears on clicking on the song-->
+                
+                    <section id="music-popup">
+                        <div id="popup-song-image-container">
+                            <img src="https://www.gabruu.com/uploads/post/post-67231581080798950919_thumb.jpg">
+                       </div>
+                         <div id="popup-song-name-container">
+                                 <p id="poup-song-name">aish song <br>bohemia</p>
+                           </div>
+                            <div id="player-functions">
+                                 <i class="far fa-heart" id="like"></i>
+                                   <i class="fas fa-ban" id="mute"></i>
+                             </div>
+                                   <div id="media-controls-container">
+                                <div id="media-buttons-container">
+                                     <div><i class="fas fa-random" id="shuffle"></i></div>
+                              <div><i class="fas fa-backward" id="shuffle"></i></div>
+                         <div><i class="far fa-pause-circle" id="pause"></i></div>
+                 <div><i class="fas fa-forward" id="shuffle"></i></div>
+                      <div><i class="fas fa-sync" id="shuffle"></i></div>
+                       </div>
+                  <div id="song-duration-container">
+                 <div id="current-position"><p>1:44</p></div>
+                <div id="play-bar"></div>
+              <div id="song-length"><p>5:54</p></div>
+           </div>
+        </div> 
+    <div id="volume-controls">
+<div id="repeat-container"><p id="repeat"><i class="fas fa-sliders-h" ></i></p></div>
+        <div id="pc-container"><p id="pc-icon"><i class="fas fa-desktop" ></i></p></div>
+        <div id="sound-container"><p id="sound"><i class="fas fa-volume-down" ></i></p></div>
+        <div id="current-volume"></div>
+        <div id="stretch-container"><p id="stretch"><i class="fas fa-expand-arrows-alt" ></i></p></div>
+        
+    </div>
+</section>
+                
+    </div>   
+        <div id="details">     
+          <p id="song-name">aish song<br>Bohemia</p>
+            <p id="play-time">3:34</p>
+             <div id="song-options-container">
+            <input type="checkbox" id="song-box4" name="song-dropdown">
+         <label for="song-box4"><i class="fas fa-chevron-circle-down" id="arrow-icon1"></i></label>
+            
+            <div id="song-options"><ul> <li>
+                <li><i class="fas fa-play"></i>&nbsp;&nbsp;Play now</li>
+                <li><i class="fas fa-plus"></i>&nbsp;&nbsp;Add to queue</li>
+                <li><i class="fas fa-music"></i>&nbsp;&nbsp;Favourites</li>
+                <li><i class="fas fa-info-circle"></i>&nbsp;&nbsp;Get Info</li>
+                </ul></div>
+            </div>
+        </div>
+            
+        </div>
+        
+        </section>
+        
+    
+
+    <p id="main-headings">Popular Artists</p>
+    
+<!--    popular artists section-->
+    
+    <section id="popular-artists">
+        
+        <div id="zayn-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShjl2kTSXohhaep1PqF2thiXfl4PkSBqKyaaZlFgqGjOmxnAGs&usqp=CAU">
+            <p>Zayn Malik</p>
+            <div id="open-details"><a href="single%20playlist%20screen.html"><i class="fas fa-play"></i></a></div>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTm9qNJOxj-kMJ59wRUdZNZ9RpUVVwAfH-TZ2nnpfSL3jwqA1Ry&usqp=CAU">
+            <p>Arijit Singh</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbctzF4o9CJcjnK7hVyCM9d9O3dZLIobL1wH3ZhOAlnPN04GgT&usqp=CAU">
+            <p>Badshah</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnZfbbCvPLNPDkOOGgprcf-BNwLw8us_X7mDgLn6S7ax7GSO0C&usqp=CAU">
+            <p>Emiway Bantai</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6sQBWp8k9Ua_2fq8b5rbIw5VAMtpmBMvlAv_ccQpTChkfqGir&usqp=CAU">
+            <p>Taylor Swift</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkjUJbb6T8bUPUUUJ-MqyP3R5Uk_GiW9EAwSFpXc0EGVr4aHSg&usqp=CAU">
+            <p>Neha Kakkar</p>
+        </div>
+        
+    </section>
+    
+    <div id="main-headings"> Genres</div>
+    
+<!--    Genres section-->
+    
+    <section id="genres">
+    
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVWtFvxBb564zhNQN2qtoGkKpAUPLun-6IiYRxMxsJU8v5Bbeq&usqp=CAU">
+            <p>Rock</p>  
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQB0LxOB4z1GqIE4sWuh0XmMH1SgFDEk4z9pIHgCReKc-LP1cFG&usqp=CAU">
+            <p>Pop</p>  
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBf0jw5yL-OmcFFf3g8QSox9MsEtSPgSY0K1GgQrjWdmjv4q0w&usqp=CAU">
+            <p>Jazz</p>  
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkNPD3UoQtO3m3lFwXc_Ld611SV2v7upp9XPxgzI2hYXxMnOcT&usqp=CAU">
+            <p>Love</p>  
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6RrXVZrAiIsphuqQ5hUrfmQxT2lpQui8nUeXDVRZbG_NsvS4b&usqp=CAU">
+            <p>EDM</p>  
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLWubJ2p4tScP9mBNyoZRoHbchgAO_1ErB_YULNn7H6vIj1EeB&usqp=CAU">
+            <p>Retro</p>  
+        </div>
+        
+    </section>
+        
+    
+     <div id="main-headings"> Music Type</div>
+    
+<!--    music types section-->
+    
+    <section id="music-types">
+        <div class="concert">
+            <p>Concert</p>  
+        </div>
+        <div class="road-trip">
+            <p>Road Trip</p>  
+        </div>
+        <div class="carnival">
+            <p>Carnival</p>  
+        </div>
+        
+    </section>
+    
+<!--    latest english section-->
+    
+    <p id="main-headings">Latest English</p>
+    <section id="latest-english">
+        
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOxdY5B6W_9E-vakxox8kzaqoLTyEUE9v2WlxbvE0NB_LG7bRe&usqp=CAU">
+            <p> Stupid Love<br> Jan 2020</p>
+        </div>
+    
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTphAWdgK_xD1M3Dro6dT4nPGdGgkAc7S5a4QR_U_Kqy5kAAhdP&usqp=CAU">
+            <p>Godzilla<br> Jan 2020</p>
+        </div>
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlHz2Bgqd2-y3tmuw1_gI6WKHnXLr3uYzd4FL3MiEQZ4sVfsAq&usqp=CAU">
+            <p> Level of Concern <br>March 2020</p>
+        </div>
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGB6o8E8acEtGjEaLYopLfZOqfFovf86qIgDu_MdTRA90RW2eU&usqp=CAU">
+            <p>Music to be murdered<br>Feb 2020</p>
+        </div>
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTeTU3E8FuMstf1S4U1ww2EBo6SIpKRaGjUguUtVQFll9z9k8jr&usqp=CAU">
+            <p>Shake It Off<br>Feb 2020</p>
+        </div>
+    </section>
+    
+<!--    latest hindi section-->
+    
+    <p id="main-headings">Latest Hindi</p>
+    <section id="latest-english">
+        
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfQR_NYpiigTm9Tco_ZLjweDw0CotO3GxoqthKjnr6R7U72OE8&usqp=CAU">
+            <p>Aaja Ni Aaja<br>Feb 2020</p>
+        </div>
+    
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRSiTU2-QRh5d-ZFVrRG3rpMhTaFrfDFWK9yfhItOseyRQhuCw2&usqp=CAU">
+            <p>Dua Karo <br> March 2020</p>
+        </div>
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCu9vLMiRixTTc9H8W9Z7YXgslD8GVpYT3_S5_1L9cb1GqKpew&usqp=CAU">
+            <p>Hui Malang<br>Feb 2020</p>
+        </div>
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgzPchA6ZjZ0ObpSpzMX7yikFIMJF6xSzEVNO9SE5g7MHcvJlQ&usqp=CAU">
+            <p>Baarish <br>Jan 2020</p>
+        </div>
+        <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKdxSyHw4Iy1YEI1GD4p8_WZU3t_5Fl8Jx8hTG-cey9eMAdk3K&usqp=CAU">
+            <p>Bhankas <br> March 2020</p>
+        </div>
+    </section>
+    </section>
+    
+<!--    side section i.e queue-->
+    
+        <section id="queue-container">
+            <div id="inside-queue">
+                
+                <div><p id="queue-heading1">My Playlist</p></div>
+                <div id="queue-headings">
+                    <div id="queue-heading-name"><p id="queue-heading2">Queue </p></div>
+                    <div id="queue-dropdown">
+                    <input type="checkbox" id="queue-arrow">
+         <label for="queue-arrow">&nbsp;&nbsp;<i class="fas fa-angle-down" id="arrow-icon"></i></label>
+                        <div id="queue-dropdown-data"><p>Playlists</p><p>Favourite songs</p></div>
+                    </div>   
+                    </div>
+            </div>
+            <div id="inside-queue-data">
+            
+            <div id="inside-queue">
+                
+                <div id="song-data"><p>01</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKhkfpSxa3PO74uAezal5RJjzmg9ZQjFnHQoNYc1vYgbCxSpSY&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Drisk<br>Carl</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p><i class="fas fa-map" id="blue"></i></p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDkGBVs23nHq9LkveFGFw37ihyV8Afo0FLGZp6rj7cP538of4t&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>DejaVu<br>Shakira</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>03</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgwfzqZMcXjTTt1OUp-vlbEPQCv2vMGCwNsE1bm6tQneo7ca0I&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Heropanti<br>Arijit</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>04</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSkuCK4_VQGOXCvnHlLydH6l3JVafDQD37jK_ihw4vKP2VV1kK&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Pal<br>Zubin</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>05</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUQtEn60e-L9k5BTtMkUt5MrI4gUdRWdcMxCQGkufzj7c8qeHN&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Dhadak<br>Armaan</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>06</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQveyNj3VScd9NG0be9j3jV88ZsxzzJW0F413pp4mhhH2hSLDUW&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Judaa<br>Papon</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>07</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyegn0B0GQvr8NiTUGwNTfL7lNRUKa0u7sHpMc-WYV5t4gzwdg&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Dilbara<br>Kk</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>08</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIi0jjj13BRwoCE9am9n4xbQrCj_-aIUAcNuy1d-lAM7i6c4yU&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Baaghi<br>Arijit</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>09</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTB_h80k8rYsanYlQWzlnNwh5yq-PQR2u-MiBzCF1As5wgdgNWi&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Gully Boy<br>Divine</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>10</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTw7tqtqbKQQWyDJBHERVjDnUlm01Vd-SCYqNMQ6EINnSAg2u-u&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Khaab<br>Ankit</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>11</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmXNT4cZHQajbhK1rtgbRMAkfQAWrg0o2TvL9YU7T2De03YoIQ&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>War<br>Neha</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>12</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHyT9JwTwv5wtxt5XtzdIMvaPytsVie_BB213Kng0ra_2MGA2K&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>David<br>Papon</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>13</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZxHedCwC3qlvPJUhPSD_R0BPSWVUXa34SegE3PfsmorZR_0Y8&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Sukraa<br>Jaani</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>15</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMHYDqWlrI5kokMBeFOLO6wBFlgY9gkS3EAWTi4tfIZihcizCV&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Simmba<br>Mika</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+        
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>17</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfz9EU3KHHARKooFaPtFCU42-96dFlgkfnITjtK_qy0hnZAm9E&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Speed<br>Manik</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>18</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvRbV6XtilVrB5gDkL9ddbBfbCZQuo_qEskIDJdzd28Q5ZNwb-&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Notebook<br>Shaan</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>19</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1TGSEwnb2Jp_4zMwR5T9nlKgaQTJkXy0VWMstWVpYgv-yZcZY&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Saajna<br>Papon</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>20</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmYt5Ug0UKMjvlT0lUBRm2lhGbWRVv6uKFFSGcthJXC8JzjhQa&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Enrique<br>Escape</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>21</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlWSQCrIeHCKHpZhr4aJYcggKWekW9-uN3kJiAAjI7A9C19908&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Cheers<br>Rihanna</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>22</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxjeBzIJVnvSD9ZuGxPhlTF471gZf2vtuTtbN4_zqtvTA0MtP2&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Bailando<br>Enrique</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>23</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_tDTunyGuxmfkbyX9XOi-CfQuCGjmsjYjxbT_fP024c72Mngf&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Tamia<br>Rihanna</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>
+                
+            </div>
+            
+             <div id="inside-queue">
+                
+                <div id="song-data"><p>24</p></div>
+                
+                <div id="song-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDF-if15Y75HSnC73Y-GSLFpTU4LpCJ6pd7zHJDtTZ4q1LiYAH&usqp=CAU"></div>
+                
+                <div id="song-data">
+                <p>Break<br>Shakira</p></div>
+                <div id="song-data">
+                <p id="heart-logo"><i class="far fa-heart"></i></p></div>    
+            </div>     
+            </div>
+              
+       </section>
+        </section>
+   <div>
+    </div>
+       </div>
+   
+    </body>
+</html>
